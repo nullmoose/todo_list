@@ -11,11 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140613181638) do
+ActiveRecord::Schema.define(version: 20140616143400) do
 
   create_table "todo_lists", force: true do |t|
     t.string   "title"
-    t.text     "decription"
+    t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
