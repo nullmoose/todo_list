@@ -32,3 +32,20 @@ div.flash.notice{
 	border: 2px solid blue; 
 	color: blue;
 }
+
+div.todo_list{
+	margin: 20px 0;
+}
+
+p.todo_list_desc{
+	display: inline;
+}
+
+ul.functions{
+	list-style: none;
+	display: inline;
+}
+
+ul.functions li{
+	display: inline;
+}
